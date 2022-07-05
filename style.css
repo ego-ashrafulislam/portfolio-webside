@@ -13,14 +13,14 @@ h1 {
     color: orangered;
 }
 
-section {
+.flixible-container {
     display: flex;
     margin-bottom: 100px;
 }
 
 .width {
     width: 50%;
-    padding-left: 3%;
+    padding-left: 5%;
 }
 
 .width img {
