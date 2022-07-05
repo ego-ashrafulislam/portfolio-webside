@@ -2,7 +2,7 @@ body {
     font-family: 'Finlandica', sans-serif;
 
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 0%;
+    margin: 0;
 }
 
 h1 {
@@ -15,6 +15,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .width {
