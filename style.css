@@ -5,20 +5,28 @@ body {
     margin: 0;
 }
 
+.text {
+    color: white;
+}
+
 h1 {
     font-size: 50px;
 }
 
 .bacground {
-    background: url(images/background.jpg);
+    background: url(images/background.gif);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 9999px;
 }
 
 
-.name-color {
-    color: orangered;
+.text-name {
+    color: tomato;
+}
+
+.title-text {
+    color: lightsalmon;
 }
 
 .flixible-container {
@@ -44,14 +52,14 @@ h1 {
     text-decoration: none;
     background-image: linear-gradient(orangered, tomato);
     padding: 8px 15px;
-    color: whitesmoke;
+    color: white;
     font-weight: 700;
     border-radius: 15px;
 }
 
 .baby {
     box-shadow: 5px 5px 10px tomato;
-    background-color: lightsteelblue;
+    background-color: darkslategray;
     border: 3px solid tomato;
     border-radius: 10px;
     margin-right: 55%;
@@ -62,7 +70,7 @@ h1 {
 
 .full-stack {
     box-shadow: 5px 5px 10px tomato;
-    background-color: lightsteelblue;
+    background-color: darkslategray;
     border: 3px solid tomato;
     border-radius: 10px;
     margin-left: 55%;
