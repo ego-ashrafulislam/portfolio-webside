@@ -9,13 +9,20 @@ h1 {
     font-size: 50px;
 }
 
+.top-banner {
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+}
+
+
 .name-color {
     color: orangered;
 }
 
 .flixible-container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .width {
@@ -27,16 +34,42 @@ h1 {
     width: 80%;
 }
 
+.secend-part {
+    margin: 10px;
+}
+
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orangered, tomato);
-    padding: 8px 25px;
+    padding: 8px 15px;
     color: whitesmoke;
     font-weight: 700;
-    border-radius: 3px;
+    border-radius: 15px;
 }
 
-.top-banner {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+.baby {
+    box-shadow: 5px 5px 10px tomato;
+    background-color: lightsteelblue;
+    border: 3px solid tomato;
+    border-radius: 10px;
+    margin-right: 55%;
+    padding: 10px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.full-stack {
+    box-shadow: 5px 5px 10px tomato;
+    background-color: lightsteelblue;
+    border: 3px solid tomato;
+    border-radius: 10px;
+    margin-left: 55%;
+    margin-bottom: 100px;
+    padding: 10px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+footer p {
+    text-align: center;
 }
